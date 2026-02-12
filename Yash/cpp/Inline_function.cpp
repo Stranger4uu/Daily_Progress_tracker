@@ -18,17 +18,53 @@ No call/return overhead.
 So execution becomes faster.
 */
 
+// #include <iostream>
+
+// using namespace std;
+
+// inline int square(int x) {
+//     return x * x;
+// }
+
+// int main() {
+//     cout << square(5);
+//     return 0;
+// }
+
+// Inpput by user 
+
+// #include <iostream>
+
+// using namespace std;
+
+// inline int square(int x) {
+//     return x * x;
+// }
+
+// int main() {
+//     int a;
+//     cout<<"Enter a number : ";
+//     cin>>a;
+//     cout<<square(a);
+    
+//     return 0;
+// }
 #include <iostream>
 
 using namespace std;
 
-inline int square(int x) {
-    return x * x;
+inline int cube(int x) {
+    return x * x * x;
 }
 
 int main() {
-    cout << square(5);
+    int a;
+    cout<<"Enter a number : ";
+    cin>>a;
+    cout << cube(5);
     return 0;
 }
+
+
 
 
