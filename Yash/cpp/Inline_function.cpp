@@ -61,7 +61,7 @@ int main() {
     int a;
     cout<<"Enter a number : ";
     cin>>a;
-    cout << cube(5);
+    cout << cube(a);
     return 0;
 }
 
