@@ -5,3 +5,5 @@ Inline_function
 global_local_scope
 Friend
 OOPS
+Default_constructor
+parameterized_constructor
