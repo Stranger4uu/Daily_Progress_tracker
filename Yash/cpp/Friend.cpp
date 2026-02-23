@@ -89,3 +89,26 @@ int main()
     return 0;
 
 }
+
+
+// #include <iostream>
+// using namespace std;
+
+// class Sample{
+//     int a,b;
+// public:
+//     void setData(){
+//         a=40;
+//         b=50;
+//     }
+//     friend int add(Sample s);
+// };
+// int add(Sample s){
+//     return (s.a+s.b);
+// }
+// int main(){
+//     Sample B;
+//     B.setData();
+//     cout<< "Addition = "<<add(B);
+//     return 0;
+// }
